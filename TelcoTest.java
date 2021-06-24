@@ -21,7 +21,6 @@ public class TelcoTest {
     }
 
     public static void main(String[] args) throws IOException {
-        if (args.length == 0) System.out.println("Аргументов нет");
 
         Properties props = new Properties();
 		props.load(new FileInputStream(new File(args[0])));
